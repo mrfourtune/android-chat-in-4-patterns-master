@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="nju.androidchat.client">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mvc0.Mvc0TalkActivity" />
+        <activity android:name=".frp0.Frp0TalkActivity" />
+        <activity android:name=".frp3.Frp3TalkActivity"/>
+        <activity android:name=".frp4.Frp4TalkActivity" />
+        <activity android:name=".mvvm0.Mvvm0TalkActivity" />
+        <activity android:name=".mvp0.Mvp0TalkActivity" />
+        <activity android:name=".mvc1.Mvc1TalkActivity" />
+        <activity android:name=".mvc1.Mvc1BackupActivity" />
+        <activity android:name=".mvp1.Mvp1TalkActivity" />
+        <activity android:name=".mvp1.Mvp1BackupActivity" />
+        <activity android:name=".mvp2.Mvp2TalkActivity" />
+        <activity android:name=".mvvm2.Mvvm2TalkActivity" />
+        <activity android:name=".mvvm3.Mvvm3TalkActivity" />
+
+    </application>
+
+</manifest>
